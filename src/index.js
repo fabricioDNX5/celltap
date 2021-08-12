@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import navBar from './components/navBar'
 
-ReactDOM.render(<div>Curso de react</div>,
-    document.getElementById('root'));
+
+ReactDOM.render(<navBar />, document.getElementById('root'));
 
 
